@@ -1,0 +1,1 @@
+/Users/mac/AndroidStudioProjects/OpenCVDemo/OpenCV/build/intermediates/cxx/Debug/16645u6b/obj/x86
