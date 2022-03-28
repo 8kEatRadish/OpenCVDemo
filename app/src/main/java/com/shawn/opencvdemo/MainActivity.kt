@@ -56,14 +56,14 @@ class MainActivity : AppCompatActivity() {
                 dst.release()
             }
 
-            createBitmapFromView(this.window, this.window.decorView) { bitmap, b ->
-                if (b) {
-                    val drawable = BitmapDrawable(bitmap)
-                    binding.imageView.background = drawable
-                } else {
-                    "截图失败".toast()
-                }
-            }
+//            createBitmapFromView(this.window, this.window.decorView) { bitmap, b ->
+//                if (b) {
+//                    val drawable = BitmapDrawable(bitmap)
+//                    binding.imageView.background = drawable
+//                } else {
+//                    "截图失败".toast()
+//                }
+//            }
         }
     }
 
